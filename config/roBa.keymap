@@ -136,10 +136,10 @@
 
         NUM {
             bindings = <
-&kp MINUS                   &kp N7  &kp N8  &kp N9     &kp PLUS                                                   &kp LEFT_ARROW        &kp RIGHT_ARROW        &kp TILDE  &kp CARET      &kp AMPERSAND
-&kp SLASH                   &kp N4  &kp N5  &kp N6     &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HASH   &kp INT_YEN    &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp N1  &kp N2  &kp N3     &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON  &kp SEMICOLON  &kp BACKSLASH
-&trans                      &trans  &trans  &kp LANG2  &trans        &trans                       &trans          &trans                                                                 &kp PIPE
+&kp MINUS  &kp N7  &kp N8  &kp N9     &kp PLUS                                     &kp LEFT_ARROW        &kp RIGHT_ARROW        &kp TILDE  &kp CARET      &kp AMPERSAND
+&kp SLASH  &kp N4  &kp N5  &kp N6     &kp ASTERISK  &trans         &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HASH   &kp INT_YEN    &kp PERCENT
+&kp N0     &kp N1  &kp N2  &kp N3     &kp PERIOD    &kp EQUAL      &trans          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON  &kp SEMICOLON  &kp BACKSLASH
+&trans     &trans  &trans  &kp LANG2  &trans        &trans         &trans          &trans                                                                 &kp PIPE
             >;
         };
 
