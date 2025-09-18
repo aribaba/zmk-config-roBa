@@ -9,18 +9,6 @@
 
 //  behaviors に追加
 // 新しいスクロール動作の追加
-
-scroll_up_down: behavior_rotate_wheel_up_down {
-    compatible = "zmk,behavior-sensor-rotate";
-    #sensor-binding-cells = <0>;
-    bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-
-    // 追加: スクロールのタップ時間を設定 (20ms)
-
-    tap-ms = <20>;
-    label = "scroll_up_down";
-};
-
 // 設定したいレイヤー
 
 sensor-bindings = <&scroll_up_down>;
@@ -115,7 +103,7 @@ sensor-bindings = <&scroll_up_down>;
 &kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 LANG1  &lt 2 SPACE  &lt 3 TAB              &kp BACKSPACE    &lt 5 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_DOWN>;
         };
 
         FUNCTION {
