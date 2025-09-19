@@ -57,6 +57,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        bikkuri {
+            bindings = <&kp LS(N1)>;
+            key-positions = <16 28>;
+        };
     };
 
     macros {
