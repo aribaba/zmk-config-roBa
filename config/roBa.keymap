@@ -43,9 +43,9 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&passcord INT_MUHENKAN>;
-            key-positions = <11 10>;
+        exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <11 10 12>;
         };
 
         double_quotation {
