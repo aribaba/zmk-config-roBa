@@ -102,7 +102,7 @@
 &kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 LANG1  &lt 2 SPACE  &lt 3 TAB              &kp BACKSPACE    &lt 5 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         FUNCTION {
