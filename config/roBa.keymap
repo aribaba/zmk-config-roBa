@@ -68,7 +68,7 @@
         passcord: password {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
-            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &kp N5 &kp C &kp S &kp K &kp LS(P) &kp LS(A) &kp N4 &kp LS(D) &kp Y &kp D &kp LS(N) &kp LS(N) &kp LS(N)>;
+            bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &kp LS(G) &kp N5 &kp C &kp S &kp K &kp LS(P) &kp LS(A) &kp N4 &kp LS(D) &kp Y &kp D &kp LS(N) &kp LS(N) &kp LS(N)>;
             label = "password";
         };
 
