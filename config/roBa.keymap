@@ -78,6 +78,20 @@
             bindings = <&to 0>;
             label = "TO_LAYER_0";
         };
+
+        windowRight: windowRight {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(RIGHT)>;
+            label = "WINDOWRIGHT";
+        };
+
+        windowLeft: windowLeft {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LEFT)>;
+            label = "WINDOWLEFT";
+        };
     };
 
     behaviors {
@@ -136,10 +150,10 @@
 
         MOUSE {
             bindings = <
-&trans     &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&kp LCTRL  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
-&trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&trans     &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans    &trans
+&kp LCTRL  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
+&trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans  &trans    &trans
+&trans     &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
         };
 
