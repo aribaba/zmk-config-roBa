@@ -65,7 +65,7 @@
     };
 
     macros {
-        passcord: password {
+        aribaba: password {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
             bindings = <&macro_param_1to1 &kp MACRO_PLACEHOLDER &kp LS(V) &kp LS(X) &kp T &kp LS(G) &kp NUMBER_7 &kp Y &kp A &kp Y &kp LS(W) &kp Y &kp W &kp Z &kp C &kp LS(N) &kp NUMBER_8>;
@@ -119,7 +119,7 @@
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
-            bindings = <&mo>, <&passcord>;
+            bindings = <&mo>, <&aribaba>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -141,7 +141,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp L         &kp U         &kp COMMA    &kp PERIOD                                            &kp F        &kp W  &lt 7 R  &kp Y  &kp P
-&kp E             &kp I         &kp A         &kp O        &kp MINUS      &passcord P           &mt RCTRL SLASH  &kp K        &kp T  &kp N    &kp S  &kp H
+&kp E             &kp I         &kp A         &kp O        &kp MINUS      &aribaba P            &mt RCTRL SLASH  &kp K        &kp T  &kp N    &kp S  &kp H
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp SEMICOLON  &kp SINGLE_QUOTE      &kp AT_SIGN      &kp G        &kp D  &kp M    &kp J  &kp B
 &kp LCTRL         &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 LANG1  &lt 2 SPACE    &lt 3 TAB             &kp BACKSPACE    &lt 5 ENTER                         &lt 6 DELETE
             >;
